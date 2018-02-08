@@ -1,0 +1,44 @@
+{
+  "name": "nunjucks-extended-loader",
+  "version": "0.1.0",
+  "description": "An extended nunjucks loader for webpack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "webpack-dev-server --config test/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Yess11/nunjucks-extended-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "nunjucks",
+    "nunj",
+    "loader",
+    "template",
+    "njk",
+    "node"
+  ],
+  "author": "Marek Belaň <belan.marek@webioza.com> (http://www.webioza.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Yess11/nunjucks-extended-loader/issues"
+  },
+  "homepage": "https://github.com/Yess11/nunjucks-extended-loader",
+  "dependencies": {
+    "loader-utils": "^0.2.12",
+    "slash": "~1.0.0"
+  },
+  "peerDependencies": {
+    "nunjucks": ">= 2.5.0 <= 4.0.0"
+  },
+  "devDependencies": {
+    "chai": "^2.1.2",
+    "mocha": "^2.2.1",
+    "mocha-loader": "^0.7.1",
+    "nunjucks": "^2.5.0",
+    "raw-loader": "^0.5.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.2"
+  }
+}
